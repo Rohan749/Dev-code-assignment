@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap");
+
+.signup__body {
+  background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+  min-height: 123vh;
+  height: fit-content;
+  width: 100vw;
+  padding-bottom: 2rem;
+  background-blend-mode: screen;
+  display: flex;
+  justify-content: center;
+  margin-top: -10rem;
+}
+
+.signup__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(45, 45, 45);
+    font-family: "Plus Jakarta Sans";
+}
+
+.signup__outerBox {
+  background-color: white;
+  border-radius: 1rem;
+  margin-top: 12rem;
+  width: 480px;
+  height: fit-content;
+  padding: 2.5rem;
+  
+}
+
+.signup__form {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signup__back {
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+  font-family: "Unbounded";
+  font-weight: bolder;
+  font-size: 0.7rem;
+}
+
+.signup__ {
+  color: rgb(31, 31, 31);
+  font-size: 1.5rem;
+  margin: 1rem 0rem 1rem 0rem;
+  font-family: "Unbounded";
+}
+
+.signup__heading {
+  color: rgb(30, 30, 30);
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Plus Jakarta Sans";
+}
+
+
+.__input {
+  background-color: rgba(226, 236, 255, 1);
+  color: rgb(49, 49, 49);
+  width: 480px;
+  border: none;
+  height: 56px;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.signup__btn {
+  display: block;
+  width: 32rem;
+  height: 56px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.btn_google {
+  border: 1px solid rgb(46, 46, 46);
+  color: rgb(46, 46, 46);
+  margin-top: 1rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.btn_signup {
+  background-color: #4136f1;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+@media only screen and (min-width: 220px) and (max-width: 480px)  {
+
+  .signup__body {
+    padding-top: 2.5rem;
+  }
+  
+  .signup__box {
+      font-size: 12px;
+  }
+  
+  .signup__outerBox {
+    margin-top: 11rem;
+    width: 16rem;
+  }
+  
+  .signup__form {
+      margin-top: 0.5rem;
+  }
+  
+  .signup__back {
+    font-size: 10px;
+  }
+  
+  .signup__ {
+    font-size: 18px;
+  }
+  
+  .signup__heading {
+    font-size: 18px;
+  }
+  
+  .__input {
+    width: 15.3rem;
+    height: 2rem;
+    font-size: 11px;
+    padding-left: 9px;
+  }
+  
+  .signup__btn {
+    width: 15.8rem;
+    height: 2rem;
+    font-size: 11px;
+    border-radius: 8px;
+  }
+  
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px)  {
+  
+    .signup__body {
+      padding-top: 2.5rem;
+    }
+    
+    .signup__box {
+        font-size: 12px;
+    }
+    
+    .signup__outerBox {
+      margin-top: 11rem;
+      width: 22rem;
+    }
+    
+    .signup__form {
+        margin-top: 0.5rem;
+    }
+    
+    .signup__back {
+      font-size: 10px;
+    }
+    
+    .signup__ {
+      font-size: 18px;
+    }
+    
+    .signup__heading {
+      font-size: 18px;
+    }
+
+    .__input {
+      width: 21.3rem;
+      height: 2rem;
+      font-size: 11px;
+      padding-left: 9px;
+    }
+    
+    .signup__btn {
+      width: 22rem;
+      height: 2rem;
+      font-size: 11px;
+    }
+    }
+  
+    @media only screen and (min-width: 769px) and (max-width: 1023px)  {
+  
+      .signup__body {
+        padding-top: 2.5rem;
+      }
+      
+      .signup__box {
+          font-size: 12px;
+      }
+      
+      .signup__outerBox {
+        width: 22rem;
+        height: fit-content;
+        padding: 1rem;
+        padding-bottom: 2.5rem;
+      }
+      
+      .signup__form {
+          margin-top: 0.5rem;
+      }
+      
+      .signup__back {
+        font-size: 10px;
+      }
+      
+      .signup__ {
+        font-size: 18px;
+      }
+      
+      .signup__heading {
+        font-size: 18px;
+      }
+      
+      .__input {
+        width: 21.3rem;
+        height: 2rem;
+        font-size: 11px;
+        padding-left: 9px;
+      }
+      
+      .signup__btn {
+        width: 22rem;
+        height: 2rem;
+        font-size: 11px;
+      }
+      }

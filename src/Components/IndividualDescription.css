@@ -1,0 +1,63 @@
+.individualDescription {
+    background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.indiDesc_body {
+    height: fit-content;
+    width: 70rem;
+    background-color: rgb(34, 34, 34);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.backIcon {
+    color: white;
+    font-size: 3rem;
+}
+
+.desc_head {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.desc_author {
+    color: white;
+    font-size: 15px;
+}
+
+.desc_paragraph {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:700px) {
+    .indiDesc_body {
+        width: 70vh;
+    }
+
+    .backIcon {
+        font-size: 2rem;
+    }
+
+    .desc_head {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .desc_paragraph {
+        color: white;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+}

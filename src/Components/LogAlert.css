@@ -1,0 +1,34 @@
+.logAlert_body {
+    background: radial-gradient(circle at 10% 20%, rgb(64, 84, 178) 0%, rgb(219, 2, 234) 90%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert_background {
+    background-color: rgb(34,34,34);
+    color: white;
+    font-size: 2rem;
+    width: fit-content;
+    min-height: 10rem;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 3rem;
+    letter-spacing: 3px;
+    line-height: 45px;
+    margin: 2rem;
+}
+
+
+p {
+    text-align: center;
+}
+
+.logout_icon { 
+    font-size: 2.2rem;
+}

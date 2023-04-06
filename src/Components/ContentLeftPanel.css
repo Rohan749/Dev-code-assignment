@@ -1,0 +1,62 @@
+.content_create {
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    background-color: #ff8000;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.content_create:hover {
+    background-color: #ff5500;
+    box-shadow: 0px 0px 31px 0px black
+}
+
+.contentLeft_btns {
+    margin-top: 5rem;
+}
+
+.left_btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.left_btn:hover{
+    background-color: rgb(74, 74, 74);
+}
+
+.cross_icon {
+    position: absolute;
+    margin: 2px;
+    font-size: 2rem;
+    color: white;
+    z-index: 99999999;
+}
+
+.cross_icon:hover {
+    color: #ff5500;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px) {
+
+    .content_create {
+        margin-bottom: 2rem;
+
+    }
+
+    .contentLeft_btns {
+        display: none;
+    }
+
+    .content_create {
+        height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    }
+    
+}

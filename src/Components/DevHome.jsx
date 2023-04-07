@@ -57,7 +57,7 @@ const DevHome = (props) => {
         if(authUser) {
             auth.signOut();
             dispatch({type: 'loggedOut'})
-            navigate('/')
+            navigate('/DevCode')
         }
     }
 
@@ -66,7 +66,7 @@ const DevHome = (props) => {
         <>
             {!clicked && <div className='devHome_body'>
                 <div data-aos="fade-down" data-aos-delay="300" className='devHome_nav'>
-                    <Link to="/">
+                    <Link to="/DevCode">
                         <nav className='devHome_icon'>
                             <nav className='codeBlogs_'>CodeBlogs</nav>
                             <nav className='rohan_'>Blogging website for Devs!</nav>

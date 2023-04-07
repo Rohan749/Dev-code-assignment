@@ -17,7 +17,7 @@ const IndividualDescription = () => {
     return (
             <div className='individualDescription'>
             <div data-aos="fade-down" className='indiDesc_body' >
-                <Link to='../home'>
+                <Link to='/Home'>
                     <MdOutlineArrowBackIos className='backIcon' />
                 </Link>
                 <div className='desc_head'>{location.state.head}</div>

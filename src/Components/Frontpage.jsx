@@ -22,7 +22,7 @@ const Frontpage = () => {
             navigate('/Home')
         }
         else {
-            navigate('./Log-in')
+            navigate('/Log-in')
         }
       }
 
@@ -35,7 +35,7 @@ const Frontpage = () => {
                     <nav className='rohan'>Blogging website for Devs!</nav>
                 </div>
                 <div data-aos="fade-down" data-aos-delay="300" className='frontpage_sign'>
-                    <Link to="./Sign-up">
+                    <Link to="/Sign-up">
                         <button className='frontpage_signBtn'>SIGN IN</button>
                     </Link>
                 </div>

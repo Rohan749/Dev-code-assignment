@@ -43,7 +43,7 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <Routes>
-                    <Route path='/' element={<Frontpage />} />
+                    <Route path='/DevCode' element={<Frontpage />} />
                     <Route path='/Sign-up' element={!authUser ? <SignIn />: <LogAlert/>} />
                     <Route path='/Log-in' element={<LogIn />} />
                     <Route path='/Home' element={<DevHome onDeleteHandler={deleteBlogHandler} contentWritings={detailArray}/>} />

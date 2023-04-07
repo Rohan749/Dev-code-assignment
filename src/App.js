@@ -16,7 +16,7 @@ import LogAlert from './Components/LogAlert';
 
 function App() {
 
-    let fetchedData = [];
+
     const authUser = useSelector(state => state.authUser)
 
     const [detailArray, setDetailArray] = useState([]);

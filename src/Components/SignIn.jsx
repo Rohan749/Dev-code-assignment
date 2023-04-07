@@ -24,7 +24,7 @@ const SignIn = () => {
         createUserWithEmailAndPassword(auth, email, password, name)
         .then((userCredential) => {
             if(auth) {
-                alert(`Successfully created new user with email: ${email}`)
+                
                 dispatch({type: 'loggedIn', authEmail: email, authName: name})
                 navigate('/home')
             }

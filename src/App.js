@@ -13,12 +13,9 @@ import LogAlert from './Components/LogAlert';
 
 
 
-
 function App() {
 
-
     const authUser = useSelector(state => state.authUser)
-
     const [detailArray, setDetailArray] = useState([]);
 
     useEffect(() => {
@@ -42,8 +39,9 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
-                <Routes>
-                    <Route path='/DevCode' element={<Frontpage />} />
+                <Routes >
+                    
+                    <Route exact path='*' element={<Frontpage />} />
                     <Route path='/Sign-up' element={!authUser ? <SignIn />: <LogAlert/>} />
                     <Route path='/Log-in' element={<LogIn />} />
                     <Route path='/Home' element={<DevHome onDeleteHandler={deleteBlogHandler} contentWritings={detailArray}/>} />

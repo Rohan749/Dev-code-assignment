@@ -20,7 +20,7 @@ const LogIn = () => {
         .then((userCredential) => {
 
             if(auth) {
-                alert(`Login Successful with email: ${email}`)
+
                 dispatch({type: 'loggedIn', authEmail:email})
                 navigate('/home')
             }

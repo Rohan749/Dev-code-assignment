@@ -19,7 +19,7 @@ const Frontpage = () => {
 
       const createBlogHandler = () => {
         if(authUser){
-            navigate('/home')
+            navigate('/Home')
         }
         else {
             navigate('./Log-in')
